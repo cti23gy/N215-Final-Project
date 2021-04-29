@@ -1,0 +1,16 @@
+$white: #fff;
+$black: #000;
+
+$site-purple: #540D6E;
+$site-pink: #EE4367;
+$site-yellow: #FFD140;
+$site-bluegreen: #3BCEAB;
+$site-green: #08AD69;
+
+ 
+$overlay-purple: linear-gradient(to right, rgba($site-purple, 0.5), rgba($site-purple, 0.5));
+$overlay-pink: linear-gradient(to right, rgba($site-pink, 0.5), rgba($site-pink, 0.5));
+$overlay-yellow-ex: linear-gradient(to right, rgba($site-yellow, 0.5), rgba($site-yellow, 0.9));
+$overlay-yellow: linear-gradient(to right, rgba($site-yellow, 0.5), rgba($site-yellow, 0.5));
+$overlay-bluegreen: linear-gradient(to right, rgba($site-bluegreen, 0.5), rgba($site-bluegreen, 0.5));
+$overlay-green: linear-gradient(to right, rgba($site-green, 0.5), rgba($site-green, 0.5));

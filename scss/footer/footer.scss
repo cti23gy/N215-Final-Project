@@ -1,0 +1,99 @@
+.footer {
+    width: 1280px;
+    height: 455px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: $site-pink;
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        margin: 30px auto 10px;
+        background-image: url(../images/logo/logo-white.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    p {
+        font-family: Gill;
+        font-size: 20px;
+        color: $white;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        .button {
+            width: 140px;
+            height: 60px;
+            font-family: Gill;
+            font-size: 16px;
+            color: $site-pink;
+            background-color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input[type=text], select {
+            width: 530px;
+            height: 60px;
+            padding: 12px 20px;
+            margin: 0 auto;
+            display: flex;
+            opacity: 50%;
+            border: 1px solid #F56B88;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    }
+
+    .media {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+
+        .facebook {
+            width: 30px;
+            height: 30px;
+            margin: 0 15px;
+            background-image: url(../images/social-media/facebook.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .instagram {
+            width: 30px;
+            height: 30px;
+            margin: 0 15px;
+            background-image: url(../images/social-media/instagram.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .twitter {
+            width: 30px;
+            height: 30px;
+            margin: 0 15px;
+            background-image: url(../images/social-media/twitter.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .copyright {
+        font-family: Gill;
+        font-size: 12px;
+        color: $white;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 20px;
+        opacity: 50%;
+    }
+    
+}

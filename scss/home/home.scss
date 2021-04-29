@@ -1,0 +1,137 @@
+.home {
+    .hero {
+        width: 1280px;
+        height: 500px;
+        margin: -120px auto 0 auto;
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: $overlay-yellow-ex, url(../images/home-hero.jpg);
+    
+        font-family: Gill;
+        font-size: 25px;
+        color: $white;
+        padding-top: 160px;
+        text-align: center;
+
+        h1 {
+            font-family: PT_Regular;
+            font-size: 40px;
+        }
+
+        h2 {
+            color: $site-pink;
+            font-family: Gill;
+            font-size: 20px;
+        }
+
+        p {
+            font-family: Gill;
+            font-size: 20px;
+        }
+
+        .button {
+            height: 40px;
+            width: 120px;
+            margin: auto;
+            background-color: $site-pink;
+            font-family: Gill;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .content1 {
+        margin: 70px auto -120px auto;
+        text-align: justify;
+        background-color: $white;
+        width: 980px;
+        
+        height: 300px;
+
+        .text1 {
+            color: $site-yellow;
+            font-family: PT_BoldItalic;
+            font-size: 15px;
+        }
+        .text2 {
+            color: $site-pink;
+            font-family: PT_Regular;
+            font-size: 15px;
+        }
+        .text3 {
+            color: #A8A8A8;
+            font-family: PT_Regular;
+            font-size: 10px;
+        }
+    }
+
+    .content2 {
+        margin: 0 auto;
+        background-color: $site-purple;
+        width: 1280px;
+        height: 320px;
+        //display: flex;
+
+        .head {
+            padding-top: 40px;
+            h1 {
+                margin: 0 0 20px 20px;
+                font-family: Gill;
+                font-size: 25px;
+                color: $white;
+            }
+
+            .line1 {
+                height: 1px;
+                width: 400px;
+                background-color: $white;
+                margin: 0 40px 20px 20px;
+            }
+        }
+
+        .events {
+            display: flex;
+            .event {
+                display: flex;
+                width: 300px;
+                .date {
+                    min-width: 60px;
+                    height: 60px;
+                    background-color: $site-pink;
+                    color: $white;
+                    margin: 0 10px 0 20px;
+                    text-align: center;
+
+                    h1 {
+                        font-family: Gill;
+                        font-size: 22px;
+                        margin: 6px auto;
+                    }
+                    p {
+                        font-family: Gill;
+                        font-size: 12px;
+                        
+                    }
+                }   
+
+                .text {
+                    h2 {
+                        color: $white;
+                        font-family: Gill;
+                        font-size: 15px;
+                    }
+                    p {
+                        color: $site-pink;
+                        font-family: Gill;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+    }
+}

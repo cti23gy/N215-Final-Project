@@ -1,0 +1,61 @@
+.page_b {
+    .header {
+        display: flex;
+        width: 980px;
+        height: 300px;
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: $overlay-pink, url(../images/blog.jpg);
+
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+
+        .date {
+            width: 155px;
+            height: 155px;
+            background-color: $site-pink;
+
+            color: $white;
+            margin: 0 10px 0 20px;
+            text-align: center;
+
+            h1 {
+                font-family: Gill;
+                font-size: 55px;
+                margin: 6px auto;
+            }
+            p {
+                font-family: Gill;
+                font-size: 31px;
+                
+            }
+        }
+    }
+
+
+    .content {
+        width: 980px;
+        height: 400px;
+        margin: 40px auto;
+        .text {
+            
+            h1 {
+                padding-top: 10px;
+                color: $site-pink;
+                font-family: Gill;
+                font-size: 20px;
+            }
+            p {
+                color: $black;
+                font-family: Gill;
+                font-size: 20px;
+            }
+
+            
+        }
+
+    }
+}

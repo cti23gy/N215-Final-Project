@@ -1,0 +1,72 @@
+.gallery {
+    h1 {
+        margin: 20px auto auto 270px;
+        font-family: Gill;
+        font-size: 25px;
+    }
+
+    .line {
+        margin: 20px auto 20px 270px;
+        width: 200px;
+        height: 1px;
+        background-color: $black;
+    }
+
+    .content {
+        width: 980px;
+        height: 600px;
+        margin: auto;
+        
+        .row1 {
+            display: flex;
+            .content_one {
+                width: 490px;
+                height: 190px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-image: $overlay-yellow, url(../images/gallery/1.png);
+                margin: 15px;
+            }
+            .content_two {
+                width: 190px;
+                height: 190px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-image: $overlay-pink, url(../images/gallery/2.jpeg);
+                margin: 15px;
+            }
+            .content_three {
+                width: 265px;
+                height: 190px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-image: $overlay-green, url(../images/gallery/3.jpg);
+                margin: 15px;
+            }
+        }
+        .row2 {
+            display: flex;
+            .content_four {
+                width: 600px;
+                height: 310px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-image: $overlay-purple, url(../images/gallery/4.jpg);
+                margin: 15px;
+            }
+            .content_five {
+                width: 355px;
+                height: 310px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-image: $overlay-bluegreen, url(../images/gallery/5.png);
+                margin: 15px;
+            }
+        }
+    }
+}

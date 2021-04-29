@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import "structure.scss";
+@import "footer/footer.scss";
+
+.home {
+    @import "nav-home/nav.scss";
+}
+.about {
+    @import "nav-main/nav.scss";
+}
+.gallery {
+    @import "nav-main/nav.scss";
+}
+.blog {
+    @import "nav-main/nav.scss";
+}
+.contact {
+    @import "nav-main/nav.scss";
+}
+
+@import "home/home.scss";
+@import "about/about.scss";
+@import "gallery/gallery.scss";
+@import "blog/blog.scss";
+@import "contact/contact.scss";
+
+@import "gallery/page_g1.scss";
+@import "gallery/page_g2.scss";
+@import "gallery/page_g3.scss";
+@import "gallery/page_g4.scss";
+@import "gallery/page_g5.scss";
+@import "blog/page_b.scss";
+
+
+
+
